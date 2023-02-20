@@ -1,0 +1,283 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:sans-serif;
+    line-height: 1.4;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin: 0.75rem 0;
+}
+/* Utility class  */
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+.text-center{
+    text-align:centre;
+}
+
+.text-primary{
+    color: orange;
+}
+.bg-light{
+    background:brown;
+    color: #333;
+
+}
+
+.bg-dark{
+    background: grey;
+    color:white;
+   
+
+}
+.bg-primary{
+    background: orange;
+    color: #fff;
+}
+.bg-extra{
+    text-align: center;
+    background: #333;
+}
+.btn{
+    background: #333;
+    color: #333;
+
+
+}
+
+
+
+
+
+
+
+
+.l-heading{
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+    color: #fff;
+
+}
+
+.m-heading{
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+.lead{
+    font-size: 1.3rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.py-1{ padding: 1.5rem 0;}
+.py-2{ padding: 2rem 0;}
+.py-3{ padding: 3rem 0;}
+
+.p-1{ padding: 1.5rem ;}
+.p-2{ padding: 2rem ;}
+.p-3{ padding: 3rem ;}
+
+
+
+.btn{
+
+    display: inline-block;
+    color:#fff;
+    background: orange;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+
+}
+.btn:hover{
+    background: lightsalmon;
+}
+
+
+
+
+.btn-dark{
+    background: #333;
+    color: #fff;
+}
+
+.list{
+    margin: 0.5rem 0;
+    list-style:none;
+}
+.list li{
+    margin: 0.5rem 0;
+    border-bottom: #444 dotted 2px;
+
+
+}
+
+/* NAv Bar */
+#navbar {
+    display: flex;
+    position: sticky;
+    top:0;
+    background:#333;
+    color: #fff;
+    justify-content:space-between;
+    z-index: 1;
+    padding: 1rem;
+
+}
+ #navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+#navbar ul li a{
+    margin: 0 0.25rem;
+    padding: 0.75rem;
+    color: #fff;
+
+}
+#navbar ul li a:hover{
+background: orange;
+border-radius: 5px;
+}
+/* Showcase */
+#showcase {
+    background: url('https://www.wallpaperup.com/uploads/wallpapers/2012/08/05/9024/ce58524d13c01b1f347affc343de0a91-700.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+   
+  }
+
+  #showcase .showcase-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+
+    /* Over Lay */
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: #000; */
+
+  }
+  #showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+
+  }
+  #showcase .showcase-content p{
+    font-size: 20px;
+    
+    line-height: 1.7em;
+
+  }
+/* Section What We Do */
+#what 
+.items{
+    display: flex;
+    /* float: left;
+    padding: 1rem; */
+}
+
+#what 
+.items 
+.item{
+    flex: 5;
+    text-align: centre;
+    /* float: left; */
+
+    padding: 2rem;
+}
+#what 
+.items 
+.item i {
+    background: orange;
+    /* float: left; */
+
+    padding: 1rem;
+    border-radius: 70%;
+}
+
+/* Who we r */
+#who{
+    display: flex;
+}
+#who div{
+    flex:1;
+
+}
+#who .who-img {
+    background: url('https://wallpapercave.com/wp/wp7728155.jpg') no-repeat center center/cover;
+}
+
+/* Clients */
+#clients .items{
+    display: flex;
+}
+#clients .items img{
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+/* Section Contact */
+#contact {
+    display: flex;
+}
+
+#contact .map, #contact .contact-form{
+    flex: 1;
+}
+#contact .contact-form .form-group{
+
+margin: 0.75rem;
+}
+#contact .contact-form label{
+    display: block;
+
+}
+#contact .contact-form input,
+#contact .contact-form textarea{
+    width: 100%;
+    padding: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
